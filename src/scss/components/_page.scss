@@ -1,0 +1,49 @@
+.page {
+  padding-bottom: 96px;
+
+  &__photo {
+    margin-bottom: 36px;
+  }
+
+  &__heading {
+    margin: 0;
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #333;
+
+    @include mobile {
+      font-weight: 700;
+      font-size: 24px;
+      color: #333;
+    }
+  }
+
+  &__date {
+    margin: 0;
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #939393;
+
+    @include mobile {
+      font-weight: 400;
+      font-size: 18px;
+      color: #939393;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    margin-bottom: 14px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+
+    @include mobile {
+      font-weight: 400;
+      font-size: 16px;
+      color: #333;
+    }
+  }
+}
